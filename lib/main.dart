@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:task1/apply_now.dart';
+
+import 'more_information.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: ApplyNow(),
+      home: MoreInfo(),
     );
   }
 }
