@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'awards.dart';
+import 'package:task1/apply_now.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: AwardsRecord(),
+      home: ApplyNow(),
     );
   }
 }
