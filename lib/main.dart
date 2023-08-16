@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'more_information.dart';
+import 'package:task1/performance_profile.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MoreInfo(),
+      home: Profile(),
     );
   }
 }
